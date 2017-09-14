@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@color/pink"
+  >
+     <LinearLayout 
+    	android:id="@+id/LinearLayout03" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="30dip"
+    	>
+    </LinearLayout>
+	<LinearLayout 
+		android:id="@+id/LinearLayout03" 
+		android:layout_width="300dip" 
+		android:layout_height="325dip"
+		android:orientation="vertical"
+		android:layout_marginTop="10dip"
+		>
+		<TextView 
+			android:text="@string/inputnum" 
+			android:id="@+id/inputnum" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_gravity="right"
+			android:paddingRight="20dip"
+			android:textColor="@color/innum"
+			>
+		</TextView>
+		<EditText 
+			android:text="" 
+			android:id="@+id/EditText01" 
+			android:layout_width="280dip" 
+			android:layout_height="300dip"
+			android:layout_gravity="center_horizontal"
+			android:background="@drawable/yy_bg_voice_edit"
+			android:layout_marginLeft="10dip"
+			android:gravity="top"
+			>
+		</EditText>
+		
+	</LinearLayout>
+	
+	
+	<LinearLayout 
+		android:id="@+id/LinearLayout02" 
+		android:layout_width="fill_parent" 
+		android:layout_height="43dip"
+		android:gravity="bottom"
+		android:layout_marginTop="75dip"
+		
+		>
+		<ImageButton 
+			android:id="@+id/ImageButton01" 
+			android:layout_width="100dip" 
+			android:layout_height="43dip"
+			android:src="@drawable/yy_voice_ok"
+			android:background="@color/yybottom"
+			android:layout_gravity="bottom"
+			>
+		</ImageButton>
+		<Button 
+			android:text="@string/voiceBtnPressSpeak" 
+			android:id="@+id/voiceBtnPressSpeak" 
+			android:layout_width="130dip" 
+			android:layout_height="43dip"
+			android:background="@color/yybottom"
+			android:textColor="@color/white"
+			android:gravity="center"
+			android:layout_gravity="bottom"
+			android:layout_marginLeft="1dip"
+			>
+		</Button>
+		<ImageButton 
+			android:id="@+id/ImageButton02" 
+			android:layout_width="100dip" 
+			android:layout_height="43dip"
+			android:src="@drawable/ic_back_sli"
+			android:background="@color/yybottom"
+			android:layout_gravity="bottom"
+			android:layout_marginLeft="1dip"
+			>
+		</ImageButton>
+	</LinearLayout>
+
+
+</LinearLayout>

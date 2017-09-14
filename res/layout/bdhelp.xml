@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  >
+  
+	<TextView 
+		android:text="帮助" 
+		android:id="@+id/TextView01" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="28dip"
+		>
+	</TextView>
+	<TextView 
+		android:text="一、本软件收录了投资理财的相关资料，方便你随时随地进行阅读！" 
+		android:id="@+id/TextView02" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="24dip"
+		>
+	</TextView>
+	<TextView 
+		android:text="二、进入【开始阅读】后，你将从头开始读故事，你可以通过按‘上一页’和‘下一页’按钮来翻页，通过按‘上一章’和‘下一章’按钮来翻页。" 
+		android:id="@+id/TextView04" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="24dip"
+		>
+	</TextView>
+	<TextView 
+		android:text="三、软件自带智能记录功能，按【继续阅读】后开始上次的阅读。" 
+		android:id="@+id/TextView03" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:textSize="24dip"
+		>
+	</TextView>
+
+</LinearLayout>
